@@ -1,0 +1,197 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2 {
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 20px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    display: block;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #444;
+    transition: background-color 0.3s;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    padding: 100px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .projects-section-header {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .code {
+    color: #e34c26;
+  }
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .btn-show-all {
+    margin-top: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .btn i {
+    margin-left: 5px;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-section-header h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-links {
+    margin-top: 20px;
+  }
+  
+  .contact-details {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .contact-details:hover {
+    background-color: #555;
+  }
+  
+  /* Profile Link Styles */
+  .profile-link {
+    margin-top: 30px;
+  }
+  
+  .profile-link a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .profile-link a:hover {
+    background-color: #555;
+  }
+  
+  /* Media Query for Responsiveness */
+  @media (max-width: 768px) {
+    .projects-grid {
+      flex-direction: column;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-list li {
+      margin: 10px 0;
+    }
+  }
+  
